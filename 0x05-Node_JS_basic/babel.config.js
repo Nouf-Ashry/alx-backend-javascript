@@ -1,3 +1,4 @@
+#!/usr/bin/node
 module.exports = {
   presets: [
     [
