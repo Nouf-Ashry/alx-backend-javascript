@@ -1,7 +1,6 @@
 #!/usr/bin/node
 const fs = require('fs');
 
-
 const countStudents = (dataPath) => new Promise((resolve, reject) => {
   fs.readFile(dataPath, 'utf-8', (err, data) => {
     if (err) {
